@@ -1,0 +1,21 @@
+User-Agent: *
+Disallow: /page7224689.html
+Disallow: /header
+Disallow: /page7226487.html
+Disallow: /footer
+Disallow: /page7240619.html
+Disallow: /error404
+Disallow: /tilda/form*
+Disallow: /tilda/rec*
+Disallow: /tilda/click*
+Disallow: /tilda/scroll*
+Disallow: /tilda/popup*
+Disallow: /tilda/cart*
+Disallow: /tilda/product*
+Disallow: /tilda/event*
+Disallow: /*_escaped_fragment_*
+Disallow:
+Sitemap: https://haidar.shop.tilda.ws/sitemap.xml
+Sitemap: https://haidar.shop.tilda.ws/sitemap-store.xml
+Sitemap: https://haidar.shop.tilda.ws/sitemap-feeds.xml
+Host: https://haidar.shop.tilda.ws

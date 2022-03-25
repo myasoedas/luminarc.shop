@@ -1,0 +1,89 @@
+ErrorDocument 403 /page7240619.html
+ErrorDocument 404 /page7240619.html
+
+DirectoryIndex page7224050.html
+
+RewriteEngine On
+
+RewriteCond %{REQUEST_FILENAME} /robots.txt
+RewriteCond "%{DOCUMENT_ROOT}/robots_%{HTTP_HOST}.txt" -f
+RewriteRule ^(.*)$ robots_%{HTTP_HOST}.txt [NC,L]
+RewriteRule ^catalog$ page7253905.html [NC]
+RewriteRule ^catalog/$ page7253905.html [NC]
+
+RewriteRule ^tovari-so-skidkoi$ page7226102.html [NC]
+RewriteRule ^tovari-so-skidkoi/$ page7226102.html [NC]
+
+RewriteRule ^populyarnie-tovari$ page7226549.html [NC]
+RewriteRule ^populyarnie-tovari/$ page7226549.html [NC]
+
+RewriteRule ^servizi-stolovie$ page7273159.html [NC]
+RewriteRule ^servizi-stolovie/$ page7273159.html [NC]
+
+RewriteRule ^servizi-chainie$ page7273171.html [NC]
+RewriteRule ^servizi-chainie/$ page7273171.html [NC]
+
+RewriteRule ^tarelki$ page7273254.html [NC]
+RewriteRule ^tarelki/$ page7273254.html [NC]
+
+RewriteRule ^chainiki-kofeiniki$ page7273280.html [NC]
+RewriteRule ^chainiki-kofeiniki/$ page7273280.html [NC]
+
+RewriteRule ^detskaya-posuda$ page7273018.html [NC]
+RewriteRule ^detskaya-posuda/$ page7273018.html [NC]
+
+RewriteRule ^etazherki-menazhnici$ page7273309.html [NC]
+RewriteRule ^etazherki-menazhnici/$ page7273309.html [NC]
+
+RewriteRule ^bluda-seledochnici$ page7255693.html [NC]
+RewriteRule ^bluda-seledochnici/$ page7255693.html [NC]
+
+RewriteRule ^zharoprochnaya-posuda$ page7273036.html [NC]
+RewriteRule ^zharoprochnaya-posuda/$ page7273036.html [NC]
+
+RewriteRule ^konteinera-steklyannie$ page7273061.html [NC]
+RewriteRule ^konteinera-steklyannie/$ page7273061.html [NC]
+
+RewriteRule ^supnici-bulionici$ page7273217.html [NC]
+RewriteRule ^supnici-bulionici/$ page7273217.html [NC]
+
+RewriteRule ^salatniki$ page7273146.html [NC]
+RewriteRule ^salatniki/$ page7273146.html [NC]
+
+RewriteRule ^kruzhki$ page7273087.html [NC]
+RewriteRule ^kruzhki/$ page7273087.html [NC]
+
+RewriteRule ^kuvshini$ page7273100.html [NC]
+RewriteRule ^kuvshini/$ page7273100.html [NC]
+
+RewriteRule ^pitievie-nabori$ page7273119.html [NC]
+RewriteRule ^pitievie-nabori/$ page7273119.html [NC]
+
+RewriteRule ^header$ page7224689.html [NC]
+RewriteRule ^header/$ page7224689.html [NC]
+
+RewriteRule ^stakani$ page7273191.html [NC]
+RewriteRule ^stakani/$ page7273191.html [NC]
+
+RewriteRule ^banki-dlya-sipuchih$ page7240536.html [NC]
+RewriteRule ^banki-dlya-sipuchih/$ page7240536.html [NC]
+
+RewriteRule ^footer$ page7226487.html [NC]
+RewriteRule ^footer/$ page7226487.html [NC]
+
+RewriteRule ^policy$ page7240656.html [NC]
+RewriteRule ^policy/$ page7240656.html [NC]
+
+RewriteRule ^error404$ page7240619.html [NC]
+RewriteRule ^error404/$ page7240619.html [NC]
+
+RewriteRule ^vashi-dannie-uspeshno-otpravleni$ page7392268.html [NC]
+RewriteRule ^vashi-dannie-uspeshno-otpravleni/$ page7392268.html [NC]
+
+RewriteRule ^spasibo-za-zakaz$ page7392330.html [NC]
+RewriteRule ^spasibo-za-zakaz/$ page7392330.html [NC]
+
+RewriteRule ^members/ ma_start.html [NC]
+
+RewriteRule ^favicon.ico$ https://static.tildacdn.com/tild3938-3062-4539-a666-313263356130/luminarc.ico [R=302,L]
+
